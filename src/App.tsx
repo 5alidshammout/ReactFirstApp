@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function App() {
   const [activeIndex, setActiveIndex] = useState(-1);
-  const [arr] = useState(["5alid", "Ahmad", "Maryam", "Ibraheem", "Salma"]);
+  const [arr] = useState(["A", "B", "C", "D", "E", "F"]);
   const [alertShown, setAlertShown] = useState(0);
   return (
     <>
