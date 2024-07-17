@@ -10,7 +10,7 @@ function ListItem({ children, ...props }: Props) {
   return (
     <li
       className={
-        "text-lime-800 hover:text-lime-900 bg-lime-200 hover:bg-lime-300 border-lime-800 hover:border-lime-900 border-x-4 border-solid p-3 text-2xl font-semibold !transition-colors" +
+        "text-slate-800 hover:text-slate-900 bg-slate-200 hover:bg-slate-300 border-slate-800 hover:border-slate-900 border-x-4 border-solid p-3 text-2xl font-semibold !transition-colors" +
         " " +
         props.classnames?.join(" ")
       }

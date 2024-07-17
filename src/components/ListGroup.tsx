@@ -25,7 +25,7 @@ function ListGroup({
             key={index}
             classnames={[
               activeIndex === index
-                ? "!bg-fuchsia-300 hover:!bg-fuchsia-400 !text-fuchsia-600 hover:!text-fuchsia-800 !border-fuchsia-600 hover:!border-fuchsia-800"
+                ? "!bg-blue-300 hover:!bg-blue-400 !text-blue-700 hover:!text-blue-900 !border-blue-700 hover:!border-blue-900"
                 : "",
               index === 0 ? "rounded-t-xl border-t-4" : "",
               index === arr.length - 1 ? "rounded-b-xl border-b-4" : "",
